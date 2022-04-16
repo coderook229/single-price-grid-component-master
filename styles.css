@@ -17,16 +17,16 @@ body {
 /* Container */
 
 .container {
-  width: 500px;
-  height: 400px;
+  width: 636px;
+  height: 475px;
   margin: 100px auto;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 /* top of container */
 
 .top {
-  height: 170px;
+  height: 216px;
   border-radius: 5px 5px 0 0;
   background-color: white;
 }
@@ -34,22 +34,30 @@ body {
 h3 {
   color: hsl(179, 62%, 43%);
   font-family: "Karla", sans-serif;
+  font-size: 24px;
   font-weight: 700;
+  /* margin-bottom: 24px; */
   margin-left: 30px;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 20px;
 }
 
 h4 {
   color: hsl(71, 73%, 54%);
+  font-size: 18px;
   margin-left: 30px;
+  margin-bottom: 11px;
+}
+
+h5 {
+  font-size: 18px;
 }
 
 .info {
-  font-size: 12px;
+  font-size: 16px;
   font-family: "Karla", sans-serif;
-  line-height: 1.5em;
-  margin: 10px 30px;
+  line-height: 1.6;
+  margin: 11px 30px;
   color: hsl(218, 22%, 67%);
 }
 
@@ -57,8 +65,8 @@ h4 {
 
 .left {
   float: left;
-  width: 250px;
-  height: 220px;
+  width: 318px;
+  height: 259px;
   background-color: hsl(179, 62%, 43%);
   border-radius: 0 0 0 5px;
 }
@@ -76,14 +84,14 @@ p {
 
 .heading-left {
   color: white;
-  margin: 30px 30px 10px 30px;
+  margin: 30px 30px 18px 40px;
 }
 
 span {
   color: white;
   font-size: 30px;
   font-weight: 700;
-  padding-left: 20px;
+  padding-left: 30px;
   margin-right: 5px;
 }
 
@@ -93,7 +101,12 @@ span {
   font-size: 12px;
   margin-left: 10px;
   font-weight: normal;
-  opacity: 0.75;
+  /* opacity: 0.75; */
+}
+
+.full{
+  font-size: 16px;
+  margin-left: 40px;
 }
 
 button {
@@ -101,20 +114,22 @@ button {
   color: white;
   font-family: "Karla", sans-serif;
   font-weight: 700;
-  margin: 20px 25px;
+  margin: 26px 40px 39px 40px;
   border-radius: 5px;
   padding: 15px 10px;
-  width: 80%;
+  height: 48px;
+  width: 237px;
   border: none;
-  box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+  cursor: pointer;
 }
 
-/* right area of container */
+/* right area of container  */
 
 .right {
   float: right;
-  width: 250px;
-  height: 220px;
+  width: 318px;
+  height: 259px;
   background-color: #4abebd;
   border-radius: 0 0 5px 0;
 }
@@ -126,11 +141,15 @@ button {
 
 .why {
   color: white;
-  margin: 30px 0 20px 30px;
+  margin: 30px 0 18px 40px;
 }
 
 .benefits {
-  line-height: 1rem;
+  color: hsl(204, 43%, 93%);
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 40px;
+  line-height: 1.5;
   opacity: 0.75;
-  
+  list-style: none;
 }
